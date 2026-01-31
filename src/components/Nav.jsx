@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Nav = ({ numberOfItems }) => {
   function openMenu() {
-    document.body.classList  ("menu--open")
+    document.body.classList.add("menu--open")
   }
 
   function closeMenu() {
